@@ -1,79 +1,79 @@
 /* Reset and base styles */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: #1e1e1e;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    min-height: 100vh;
-    padding: 40px 20px;
-  }
-  
-  /* Main container */
-  .container {
-    background-color: #2b2b2b;
-    padding: 30px 40px;
-    border-radius: 12px;
-    max-width: 450px;
-    width: 100%;
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
-  }
-  
-  /* Heading */
-  .container h1 {
-    text-align: center;
-    margin-bottom: 25px;
-    font-size: 28px;
-    color: #ffffff;
-  }
-  
-  /* Input and button */
-  #city-input {
-    width: 100%;
-    padding: 12px;
-    border-radius: 6px;
-    border: none;
-    margin-bottom: 15px;
-    font-size: 16px;
-    background-color: #ffffff;
-    color: #000000;
-  }
-  
-  button {
-    width: 100%;
-    padding: 12px;
-    background-color: #4caf50;
-    color: white;
-    border: none;
-    font-size: 16px;
-    font-weight: bold;
-    border-radius: 6px;
-    cursor: pointer;
-    transition: background-color 0.3s ease-in-out;
-  }
-  
-  button:hover {
-    background-color: #388e3c;
-  }
-  
-  /* Result display */
-  .result {
-    margin-top: 20px;
-    background-color: #3b3b3b;
-    border-radius: 10px;
-    padding: 20px;
-  }
-  
-  .result h2,
-  .result p {
-    font-size: 18px;
-    margin-bottom: 10px;
-  }
-  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #1e1e1e;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  padding: 40px 20px;
+}
+
+/* Main container */
+.container {
+  background-color: #2b2b2b;
+  padding: 30px 40px;
+  border-radius: 12px;
+  max-width: 450px;
+  width: 100%;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+}
+
+/* Heading */
+.container h1 {
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 28px;
+  color: #ffffff;
+}
+
+/* Input and button */
+#city-input {
+  width: 100%;
+  padding: 12px;
+  border-radius: 6px;
+  border: none;
+  margin-bottom: 15px;
+  font-size: 16px;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+button:hover {
+  background-color: #388e3c;
+}
+
+/* Result display */
+.result {
+  display: none; /* Hidden by default */
+  margin-top: 20px;
+  background-color: #3b3b3b;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.result h2,
+.result p {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
